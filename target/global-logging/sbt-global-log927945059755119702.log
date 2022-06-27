@@ -1,0 +1,13 @@
+[debug] > Exec(class BinarySearchTree(value: Int, var left: BinarySearchTree, var right: BinarySearchTree){   def this(value: Int){     this(value, null, null)   }    def add(value: Int): Unit = value match {     case a if a < this.value => if(left == null) left = new BinarySearchTree(value) else left.add(value)     case a if a > this.value => if(right == null) right = new BinarySearchTree(value) else right.add(value)     case _ =>   }  }, None, None)
+[error] Expected ID character
+[error] Not a valid command: class (similar: last, alias, tasks)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: class (similar: clean, mainClass, tags)
+[error] class BinarySearchTree(value: Int, var left: BinarySearchTree, var right: BinarySearchTree){   def this(value: Int){     this(value, null, null)   }    def add(value: Int): Unit = value match {     case a if a < this.value => if(left == null) left = new BinarySearchTree(value) else left.add(value)     case a if a > this.value => if(right == null) right = new BinarySearchTree(value) else right.add(value)     case _ =>   }  }
+[error]      ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

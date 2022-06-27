@@ -1,0 +1,13 @@
+[debug] > Exec(replay -deprecation, None, None)
+[error] Expected ID character
+[error] Not a valid command: replay (similar: reload, apply)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: replay
+[error] replay -deprecation
+[error]       ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
